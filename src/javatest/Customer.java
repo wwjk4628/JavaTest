@@ -5,11 +5,9 @@ public class Customer extends User {
 	
 	
 	public Customer() {
+		super("defaultId", "defaultPw", "defaultName");
 	}
 
-	public Customer(int point) {
-		this.point = point;
-	}
 	public Customer(String id, String pw, String name, int point) {
 		super.setId(id);
 		super.setPw(pw);

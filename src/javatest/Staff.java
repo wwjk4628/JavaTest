@@ -4,10 +4,9 @@ public class Staff extends User {
 	private int mon;
 
 	public Staff() {
+		
 	}
-	public Staff(int mon) {
-		this.mon = mon;
-	}
+
 	public Staff(String id, String pw, String name, int mon) {
 		super.setId(id);
 		super.setPw(pw);

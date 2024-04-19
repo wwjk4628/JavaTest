@@ -18,6 +18,7 @@ public class UserApp {
 		rList.add(c1);
 		rList.add(c2);
 		rList.add(c3);
+		
 
 //		s1.setId("master");
 //		s1.setPw("m7788");
@@ -70,9 +71,9 @@ public class UserApp {
 //
 		int x = 0;
 		System.out.println();
-		for (User n : rList) {
-		if (n instanceof Staff) {
-			Staff staff = (Staff)n;
+		for (int n = 0; n < rList.size(); n++) {
+		if (rList.get(n) instanceof Staff) {
+			Staff staff = (Staff)rList.get(n);
 			int month = staff.getMon();
 			year = month * 12;
 			x++;
