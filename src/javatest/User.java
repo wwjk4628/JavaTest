@@ -44,6 +44,6 @@ public abstract class User {
 		return "아이디:" + id + "\t비번:" + pw + "\t이름:" + name;
 	}
 
-	public abstract String showInfo();
+	public abstract void showInfo();
 	
 }

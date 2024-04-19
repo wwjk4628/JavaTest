@@ -65,9 +65,9 @@ public class Staff extends User {
 		return super.toString() + "\t월급:" + mon;
 	}
 
-	@Override
-	public String showInfo() {
+	
+	public void showInfo() {
 		// TODO Auto-generated method stub
-		return  super.toString() + "\t월급:" + mon;
+		System.out.println(super.toString() + "\t월급:" + mon);
 	}
 }

@@ -45,14 +45,16 @@ public class UserApp {
 		System.out.println("------------------회원+운영자 전체리스트--------------------------");
 
 		for (Staff n : staffs) {
-			System.out.println(i + "." + n.showInfo());
+			System.out.print(i + ".");
+			n.showInfo();
 			i++;
 		}
 
 		i = 1;
 
 		for (Customer n : customers) {
-			System.out.println(i + "." + n.showInfo());
+			System.out.print(i + ".");
+			n.showInfo();
 			i++;
 		}
 

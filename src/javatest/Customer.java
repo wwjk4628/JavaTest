@@ -68,8 +68,8 @@ public class Customer extends User {
 	}
 
 	@Override
-	public String showInfo() {
+	public void showInfo() {
 		// TODO Auto-generated method stub
-		return super.toString() + "\t포인트:" + point;
+				System.out.println(super.toString() + "\t포인트:" + point);
 	}
 }
