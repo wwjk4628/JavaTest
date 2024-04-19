@@ -1,9 +1,9 @@
 package javatest;
 
 public abstract class User {
-	private String id;
-	private String pw;
-	private String name;
+	protected String id;
+	protected String pw;
+	protected String name;
 
 	public User() {
 
